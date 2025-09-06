@@ -20,8 +20,8 @@ def init_state():
     if "materials" not in st.session_state:
         st.session_state.materials = [
             {"title": "Presentation I", "https://github.com/CDAMChukaUniversity/2025-AMMnet_Malaria_Modeling_Workshop/blob/main/Presentation-I.pdf": "Presentation-I.pdf"},
-            {"title": "Presentation II", "link": "https://github.com/AMMNetMachineLearningGroup/APP2025/blob/main/EXplainable-AI.pdf"},
-            {"title": "Presentation III", "link": "https://github.com/AMMNetMachineLearningGroup/APP2025/blob/main/AI_in_Modeling_Balancing_Innovation_with_Ethics.pdf"},
+            {"title": "Presentation II", "link": "EXplainable-AI.pdf"},
+            {"title": "Presentation III", "link": "AI_in_Modeling_Balancing_Innovation_with_Ethics.pdf"},
         ]
 
 
